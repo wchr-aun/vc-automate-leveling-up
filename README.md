@@ -1,7 +1,12 @@
-# vc-automate-leveling-up
+# Valkyrie Crusade - Automated leveling-up
+
+<img src='https://lh3.googleusercontent.com/75feyTD9lq02u_2leJwdwkzjOj1YfYBNa5NZHPT-PQ4CSnugxeAGfdTT89uj3G2YNp2C=s180-rw' height='70'> 
+
+[Valkyrie Crusade](https://play.google.com/store/apps/details?id=com.nubee.valkyriecrusade&hl=en)
+
 Since I am lazy to level up the kingdom myself, here you go, the script for leveling up your kingdom on a emulator.
 
-The concept is pretty easy: building and selling Treasure Hunt until you level up.
+The concept is pretty easy: the script will be building and selling Treasure Hunt until you level up.
 
 ## Explaination
 It is pretty simple python codes here. Firstly, it requires you to setup the environment of your Bluestacks (or whatever you use). There are 11 variables you need to setup:
@@ -22,6 +27,10 @@ To setup, you need to run setup.py file and place your mouse on where those posi
 [vdo link will be available later]
 To run the script, you just need to run client.py and leave your screen.
 
+## Requirement
+- Python3
+- Emulator (such as Bluestacks)
+
 ## Setup
 ```bash
 python ./setup.py
@@ -33,4 +42,4 @@ python ./client.py
 ```
 
 ## Download already built files
-[Google Drive Link](https://drive.google.com/drive/folders/1YO1RCV9mzByC2mQc2eC9GK7NIGCAK_xS?usp=sharing)
+In case you don't have Python on your computer, [here](https://drive.google.com/drive/folders/1YO1RCV9mzByC2mQc2eC9GK7NIGCAK_xS?usp=sharing) is the exe files. Double click the files to use.
