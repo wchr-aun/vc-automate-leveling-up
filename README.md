@@ -28,7 +28,13 @@ To setup, you need to run setup.py file and place your mouse on where those posi
 To run the script, you just need to run client.py and leave your screen.
 
 ## Requirement
-- Python3
+- [Python3](https://www.python.org/downloads/release/python-377/) (If you don't want to mess around, I recommend you to download the .exe version below)
+  - pynput
+  - pyinstaller (In case you want to adjust the file and build your own .exe file)
+```bash
+pip install pynput
+pip install pyinstaller
+```
 - Emulator (such as Bluestacks)
 
 ## Setup
