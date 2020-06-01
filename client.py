@@ -43,7 +43,6 @@ def positioning():
   rounds = int(f.readline())
   f.close()
 
-print("****To quit the program, press ESC****")
 print("Auto clicker will start in 3...")
 time.sleep(1)
 print("Auto clicker will start in 2...")
@@ -123,5 +122,4 @@ with keyboard.Listener(on_press=on_press) as listener:
     mouse.position = confirm_position #confirm
     clicking(1.5)
     print("End the loop.")
-    print("*Reminder: Press ESC to quit the program*")
   listener.join()
